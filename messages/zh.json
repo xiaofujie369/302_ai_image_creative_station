@@ -1,0 +1,1334 @@
+{
+  "auth": {
+    "description": "创建者开启了验证，请在下方填入分享码",
+    "form": {
+      "confirm_button": "确认",
+      "confirm_button_loading": "验证中",
+      "input_code": "请输入分享码",
+      "remember_code": "记住分享码"
+    },
+    "title": "需要分享码"
+  },
+  "common": {
+    "pagination":{
+      "previous":"上一页",
+      "next":"下一页"
+    },
+    "model": "模型选择",
+    "enterPrompt":"请输入提示词",
+    "enterDuration":"请选择时长",
+    "genVideo":"生成视频",
+    "prompt":"提示词",
+    "promptPlaceHolder":"请输入对生成视频的要求",
+    "modelSelect":"模型",
+    "duration":"时长",
+    "selectDuration":"选择时长",
+    "gen":"生成视频",
+    "genrating":"生成中"
+  },
+  "history": {
+    "loading": "加载中...",
+    "noHistoryTitle": "暂无历史记录",
+    "noHistoryMessage": "您生成的图片将会显示在这里",
+    "generateVideo":"生成视频"
+  },
+  "home": {
+    "header": {
+      "title": "AI图像创意站",
+      "description": "输入你想生成的图片描述，一句话就能生成你的创意",
+      "more": "更多玩法",
+      "placeholder": "输入你想生成的内容 e.g.一只带着魔术帽的企鹅",
+      "history": "历史记录",
+      "refresh": "换一下，试试手气吧！"
+    }
+  },
+  "file": {
+    "drop_file": "拖放文件到这里",
+    "or": "或",
+    "upload_file": "点击上传本地图片",
+    "support": "支持jpg、png格式",
+    "uploading": "上传中"
+  },
+  "gallery": {
+    "description": "这里展示了您所有生成过的图片，最新生成的图片会显示在最前面",
+    "emptyMessage": "来试试生成好看的图片吧！",
+    "promptTitle": "提示词",
+    "title": "生成历史"
+  },
+  "global": {
+    "error": {
+      "copy_failed": "复制失败",
+      "code_invalid": "分享码错误, 更多请访问 302.AI",
+      "network_error": "网络服务错误, 请查看网络状态或稍后再试!",
+      "not_found": "页面不存在",
+      "tool_deleted": "该工具已删除, 更多请访问 <site>302.AI</site>",
+      "tool_disabled": "该工具已禁用, 更多请访问 <site>302.AI</site>",
+      "unknown_error": "发生未知错误, 请联系客服",
+      "max_generation": "最多同时只能生成4个图片",
+      "empty_image": "请上传图片",
+      "generate_failed": "生成失败",
+      "generating": "生成中..."
+    },
+    "generating": "生成中...",
+    "example": "参考效果",
+    "generate_image": "生成图片",
+    "generate_success": "生成成功",
+    "generate_error": "生成失败",
+    "footer": {
+      "copyright_content": "本项目由<logo></logo>驱动",
+      "copyright_leading": "内容由AI生成，仅供参考"
+    },
+    "header": {
+      "language_switcher": {
+        "switch_language": "切换语言"
+      },
+      "theme_switcher": {
+        "dark": "暗色模式",
+        "light": "亮色模式",
+        "system": "跟随系统",
+        "toggle_theme": "切换主题"
+      },
+      "tool_info": {
+        "description": "当前工具相关信息",
+        "title": "关于",
+        "trigger": {
+          "label": "打开/关闭工具信息弹窗"
+        }
+      }
+    }
+  },
+  "styles": {
+    "anime": "动漫",
+    "watercolor": "水彩风",
+    "low_poly": "低多边形",
+    "pixel_art": "像素艺术",
+    "steampunk": "蒸汽朋克",
+    "cyberpunk": "赛博朋克",
+    "minimalist": "极简线条",
+    "retro": "复古风",
+    "graffiti": "涂鸦艺术",
+    "realistic": "写实",
+    "impressionism": "印象派",
+    "surrealism": "超现实主义",
+    "abstract": "抽象艺术",
+    "classical": "古典主义",
+    "pop_art": "波普艺术",
+    "ghibli": "吉卜力",
+    "sci_fi": "科幻风",
+    "illustration": "插画",
+    "ink_painting": "水墨画",
+    "sketch": "素描",
+    "black_and_white": "黑白",
+    "crayon": "蜡笔画",
+    "disney": "迪士尼风",
+    "3d_animation": "3D动画",
+    "dreamy": "梦幻风"
+  },
+  "basic": {
+    "text2img": "文生图",
+    "styleEdit": "风格修改",
+    "styleModification": "图片修改",
+    "model": "模型",
+    "select_model": "选择模型",
+    "style_description": "图片修改描述",
+
+    "input": {
+      "placeholder": "输入你想要生成的图片描述...",
+      "select": "选择语言",
+      "style_description": "请输入您想要的风格描述...",
+      "style_edit_description": "eg: 给人物添加一个帽子",
+      "style_edit_example": "给人物添加一个帽子"
+    },
+    "language": {
+      "en": "英文",
+      "zh": "中文",
+      "ja": "日文"
+    },
+    "optimize": "优化提示词",
+    "text": "文字描述",
+    "image": "图片参考",
+    "style_example": "风格示例",
+    "warning": {
+      "actionImage": "请上传操作图片",
+      "referenceImage": "请上传参考图片"
+    },
+    "default_prompt": "一只带着魔术帽的企鹅"
+  },
+  "english_cards": {
+    "input": {
+      "placeholder": "请输入英文单词 e.g. apple, tree, bear, banana"
+    },
+    "warning": {
+      "placeholder": "请输入英文单词"
+    }
+  },
+  "generation-form": {
+    "image_warning": "请上传图片",
+    "text_warning": "请输入内容",
+    "text_input": "文字输入",
+    "upload_input": "上传图片"
+  },
+
+  "visual-recipe": {
+    "input": {
+      "placeholder": "e.g.提拉米苏",
+      "dish_name": "菜肴名称",
+      "ingredients": "食材",
+      "cooking_steps": "烹饪步骤",
+      "style": "菜谱风格",
+      "ingredients_placeholder": "e.g.200克手指饼干、250克马斯卡彭、3个鸡蛋、100克糖、200毫升浓缩咖啡、30毫升咖啡利口酒、无糖可可粉",
+      "cooking_steps_placeholder": "e.g.将蛋黄和糖搅拌至光滑，然后加入马斯卡彭奶酪，继续搅拌至均匀混合。将手指饼干浸入咖啡中，将其铺在容器底部，然后涂上一层奶酪混合物。最后，在盘子里的提拉米苏上撒上可可粉。",
+      "warning": {
+        "dish_name": "请输入菜肴名称",
+        "ingredients": "请输入食材",
+        "cooking_steps": "请输入烹饪步骤"
+      }
+    },
+    "select": {
+      "handdrawn": "手绘",
+      "digital": "实物"
+    }
+  },
+  "physical_destruction": {
+    "warning": {
+      "character": "请填写人物角色",
+      "theme": "请填写卡片主题"
+    },
+    "placeholder": {
+      "character": "e.g. 爱因斯坦",
+      "theme": "e.g. 相对论"
+    },
+    "label": {
+      "character": "人物角色",
+      "theme": "卡片主题"
+    }
+  },
+  "product-model": {
+    "warning": {
+      "image": "请上传商品图"
+    },
+    "label": {
+      "gender": "性别",
+      "ethnicity": "种族",
+      "upload_image": "上传商品图",
+      "model_ethnicity": "模特人种",
+      "model_gender": "模特性别",
+      "male": "男",
+      "female": "女",
+      "asian": "亚洲人",
+      "white": "欧美人",
+      "black": "非洲人"
+    }
+  },
+  "sculpture": {
+    "placeholder": "请输入内容 e.g.C罗",
+    "defaultValue": "C罗",
+    "label": {
+      "description": "请上传一张图片，AI会将其转换为大理石雕塑风格"
+    }
+  },
+  "relief": {
+    "placeholder": "请输入内容 e.g.一个身穿旗袍，头戴簪花的女子",
+    "defaultValue": "一个身穿旗袍，头戴簪花的女子",
+    "label": {
+      "description": "请上传一张图片，AI会将其转换为立体浮雕风格"
+    }
+  },
+  "3d-head-pose": {
+    "placeholder": "请输入内容 e.g.一个西部牛仔风格的男孩，头上戴着牛仔帽",
+    "defaultValue": "一个西部牛仔风格的男孩，头上戴着牛仔帽",
+    "label": {
+      "description": "请上传一张图片，AI会将其转换为8种3D头像姿势"
+    }
+  },
+  "clay-model": {
+    "placeholder": "请输入内容 e.g.大象",
+    "defaultValue": "大象",
+    "label": {
+      "description": "请上传一张图片，AI会将其转换为粘土风格"
+    }
+  },
+  "crystal-ball": {
+    "placeholder": "请输入内容 e.g.一个头戴魔术帽的企鹅",
+    "defaultValue": "一个头戴魔术帽的企鹅",
+    "label": {
+      "description": "请上传一张图片，AI会将其转换为水晶球的内部场景"
+    }
+  },
+  "passport-stamp": {
+    "warning": {
+      "country": "请填写国家",
+      "city": "请填写城市",
+      "landmarks": "请填写地标",
+      "date": "请填写日期"
+    },
+    "label": {
+      "country": "国家",
+      "city": "城市",
+      "landmarks": "地标",
+      "date": "日期"
+    },
+    "placeholder": {
+      "country": "e.g. 中国",
+      "city": "e.g. 广州",
+      "landmarks": "e.g. 广州塔",
+      "date": "e.g. 2025-01-01"
+    }
+  },
+  "low-poly": {
+    "warning": {
+      "text": "请输入内容"
+    },
+    "placeholder": {
+      "text": "请输入你想生成的内容 e.g.袋鼠"
+    },
+    "defaultValue": "袋鼠"
+  },
+  "isometric-scene": {
+    "warning": {
+      "scene": "请输入场景描述"
+    },
+    "placeholder": {
+      "scene": "请输入场景描述 e.g.大闹天宫"
+    },
+    "defaultValue": "大闹天宫"
+  },
+  "city-isometric-view": {
+    "warning": {
+      "city": "请输入城市名称",
+      "weather": "请选择天气"
+    },
+    "placeholder": {
+      "city": "e.g. 广州",
+      "weather": "e.g. 晴天",
+      "weatherEffect": "e.g. 太阳"
+    },
+    "label": {
+      "city": "城市",
+      "weather": "天气",
+      "weatherEffect": "天气效果"
+    },
+    "weather": {
+      "sunny": "晴天",
+      "cloudy": "阴天",
+      "partly_cloudy": "多云",
+      "rainy": "雨天",
+      "snowy": "雪天",
+      "foggy": "雾天",
+      "thunderstorm": "雷雨天"
+    },
+    "weatherEffect": {
+      "sun": "太阳",
+      "rain": "雨",
+      "snow": "雪",
+      "fog": "雾",
+      "hail": "冰雹",
+      "wind": "风",
+      "lightning": "雷电",
+      "cloud": "云"
+    }
+  },
+  "font-typography": {
+    "warning": {
+      "image": "请上传商品图",
+      "text": "请输入主题词"
+    },
+    "label": {
+      "theme": "主题词"
+    },
+    "placeholder": {
+      "theme": "e.g.幸福"
+    }
+  },
+  "ancient-book": {
+    "warning": {
+      "complete": "请填写完整的古书信息"
+    },
+    "label": {
+      "leftPage": "左页",
+      "rightPage": "右页"
+    },
+    "placeholder": {
+      "scene": "请输入微缩场景的描述 e.g.一间被绿色藤蔓环绕的小屋，草地上点缀着野花，旁边有一片菜园，种着番茄和生菜。小屋前摆放着木质椅子和一张圆桌，桌上放着冒着热气的茶壶。一只白色猫咪在阳光下懒散地打着盹，小屋后方还有一条蜿蜒的小溪。"
+    },
+    "defaultValue": "一间被绿色藤蔓环绕的小屋，草地上点缀着野花，旁边有一片菜园，种着番茄和生菜。小屋前摆放着木质椅子和一张圆桌，桌上放着冒着热气的茶壶。一只白色猫咪在阳光下懒散地打着盹，小屋后方还有一条蜿蜒的小溪。",
+    "type": {
+      "ancientBook": "古书",
+      "miniatureScene": "微缩场景"
+    }
+  },
+  "pill-capsule": {
+    "warning": {
+      "food": "请输入物品名称"
+    },
+    "placeholder": {
+      "food": "填写你想放进药片里的物品 e.g.桃子，西瓜，菠萝，火锅"
+    },
+    "defaultValue": "桃子,西瓜,菠萝,火锅"
+  },
+  "keycap": {
+    "warning": {
+      "mainKey": "请输入主按键",
+      "surroundingKeys": "请输入周围按键",
+      "internalScene": "请输入内部场景",
+      "sceneDescription": "请输入场景描述"
+    },
+    "defaultValue": {
+      "warm": {
+        "mainKey": "Esc",
+        "surroundingKeys": "F1, Q, Shift",
+        "internalScene": "农场",
+        "sceneDescription": "在键帽内，可以看到排列整齐的种植箱，里面装满了各种蔬菜和草药。清晨的阳光洒在植物嫩绿的叶子上，露珠在阳光下闪闪发光。小型灌溉系统安静运行，以确保每株植物都能获得必要的水。在农场的一个角落里，有一个堆肥箱，默默地为土壤提供养分。"
+      },
+      "cold": {
+        "mainKey": "Esc",
+        "surroundingKeys": "F1, Q, Shift",
+        "internalScene": "客厅",
+        "sceneDescription": "里面有一个发光的红色Netflix屏幕、一个毛绒红色沙发、爆米花碗和毯子。一个小人物抬起脚躺下，看着里面的东西。红色的\"N\"符号从后面亮起，就像情感照明一样，而外面F1、Shift和Q按钮上的酷炫科技蓝色反射。"
+      }
+    },
+    "label": {
+      "mainKey": "主按键",
+      "surroundingKeys": "周围按键",
+      "internalScene": "内部场景",
+      "sceneDescription": "场景描述",
+      "colorTone": "色调选择"
+    },
+    "placeholder": {
+      "mainKey": "e.g. Esc",
+      "surroundingKeys": "e.g. F1, Q, Shift",
+      "internalScene": {
+        "warm": "e.g. 农场",
+        "cold": "e.g. 客厅"
+      },
+      "sceneDescription": {
+        "warm": "e.g. 在键帽内，可以看到排列整齐的种植箱，里面装满了各种蔬菜和草药。清晨的阳光洒在植物嫩绿的叶子上，露珠在阳光下闪闪发光。小型灌溉系统安静运行，以确保每株植物都能获得必要的水。在农场的一个角落里，有一个堆肥箱，默默地为土壤提供养分。",
+        "cold": "e.g. 里面有一个发光的红色Netflix屏幕、一个毛绒红色沙发、爆米花碗和毯子。一个小人物抬起脚躺下，看着里面的东西。红色的\"N\"符号从后面亮起，就像情感照明一样，而外面F1、Shift和Q按钮上的酷炫科技蓝色反射。"
+      }
+    },
+    "colorTone": {
+      "warm": "暖色调",
+      "cold": "冷色调"
+    }
+  },
+  "mini-3d-building": {
+    "warning": {
+      "text": "请输入内容"
+    },
+    "label": {
+      "text": "输入建筑"
+    },
+    "defaultValue": "麦当劳",
+    "placeholder": {
+      "text": "e.g.麦当劳"
+    }
+  },
+  "change-age": {
+    "warning": {
+      "age": "请输入年龄",
+      "image": "请上传图片"
+    },
+    "label": {
+      "age": "年龄"
+    },
+    "placeholder": {
+      "age": "e.g.18"
+    }
+  },
+  "doll": {
+    "warning": {
+      "title": "请输入标题",
+      "subtitle": "请输入副标题",
+      "accessories": "请输入配件",
+      "image": "请上传图片"
+    },
+    "label": {
+      "title": "标题",
+      "subtitle": "副标题",
+      "accessories": "添加配件"
+    },
+    "placeholder": {
+      "title": "e.g.我要赚大钱",
+      "subtitle": "e.g.来财来财",
+      "accessories": "e.g.眼镜，电脑，手机"
+    }
+  },
+  "3d-model": {
+    "warning": {
+      "model": "请填写模型主体",
+      "bottomText": "请填写底部文字",
+      "detailDescription": "请填写细节描述"
+    },
+    "label": {
+      "model": "模型主体",
+      "bottomText": "底部文字",
+      "detailDescription": "细节描述"
+    },
+    "placeholder": {
+      "model": "e.g.音乐工作室",
+      "bottomText": "e.g.Music",
+      "detailDescription": "e.g.一个经典的独立音乐工作室，墙上装饰着黑胶唱片和经典乐队海报。一套老式鼓和几把电吉他被放在在中间。地毯上的混音器和老式的录音机被聚光灯照亮。一位穿着破洞牛仔裤和乐队T恤的年轻音乐家站在麦克风前，闭着眼睛唱歌，周围是乐谱和铅笔。"
+    },
+    "defaultValue": {
+      "model": "音乐工作室",
+      "bottomText": "Music",
+      "detailDescription": "一个经典的独立音乐工作室，墙上装饰着黑胶唱片和经典乐队海报。一套老式鼓和几把电吉他被放在在中间。地毯上的混音器和老式的录音机被聚光灯照亮。一位穿着破洞牛仔裤和乐队T恤的年轻音乐家站在麦克风前，闭着眼睛唱歌，周围是乐谱和铅笔。"
+    }
+  },
+  "tweet": {
+    "warning": {
+      "text": "请输入内容"
+    },
+    "label": {
+      "text": "帖子内容"
+    },
+    "placeholder": {
+      "text": "e.g.宇宙飞船入侵地球"
+    },
+    "defaultValue": "宇宙飞船入侵地球"
+  },
+  "double-exposure": {
+    "warning": {
+      "text": "请输入内容"
+    },
+    "label": {
+      "text": "人物角色"
+    },
+    "placeholder": {
+      "text": "填写真实存在的人物角色 e.g.乒乓球运动员孙颖莎"
+    },
+    "defaultValue": "乒乓球运动员孙颖莎"
+  },
+  "hand-drawn-info-card": {
+    "warning": {
+      "text": "请输入内容"
+    },
+    "label": {
+      "text": "卡片内容"
+    },
+    "placeholder": {
+      "text": "输入卡片内容 e.g.「认知」决定上限 「圈子」决定机会 \n- 你赚不到「认知」以外的钱， - 也遇不到「圈子」以外的机会。"
+    },
+    "defaultValue": "「认知」决定上限 「圈子」决定机会 \n- 你赚不到「认知」以外的钱， - 也遇不到「圈子」以外的机会。"
+  },
+  "lego-collection": {
+    "warning": {
+      "image": "请上传一张人物图",
+      "text": "请输入内容"
+    },
+    "label": {
+      "description": "请上传一张人物图，AI会选择一只他认为适合该人物的动物，并以乐高收藏品的形式生成"
+    }
+  },
+  "micro-world": {
+    "warning": {
+      "externalWorld": "请填写外部世界",
+      "internalWorld": "请填写内部世界"
+    },
+    "label": {
+      "externalWorld": "外部世界",
+      "internalWorld": "内部世界"
+    },
+    "placeholder": {
+      "externalWorld": "e.g.西瓜",
+      "internalWorld": "e.g.沙滩和大海"
+    },
+    "defaultValue": {
+      "externalWorld": "西瓜",
+      "internalWorld": "沙滩和大海"
+    }
+  },
+  "cute-enamelled-pin": {
+    "warning": {
+      "image": "请上传一张人物图"
+    },
+    "label": {
+      "description": "请上传一张人物图，AI会将其转换为可爱的珐琅徽章风格"
+    }
+  },
+  "q-version-3d-character": {
+    "warning": {
+      "image": "请上传一张人物图"
+    },
+    "label": {
+      "description": "请上传一张人物图，AI会将其转换为Q版3D角色风格"
+    }
+  },
+  "ghibli-style": {
+    "warning": {
+      "image": "请上传一张人物图"
+    },
+    "label": {
+      "description": "请上传一张人物图，AI会将其转换为吉卜力动画风格"
+    }
+  },
+  "sticker-design": {
+    "warning": {
+      "text": "请输入内容",
+      "image": "请上传图片"
+    },
+    "label": {
+      "text_input": "文字输入",
+      "upload_input": "上传图片",
+      "style": "选择风格"
+    },
+    "placeholder": {
+      "text": "e.g. 一只可爱的小狗"
+    },
+    "style": {
+      "illustration": "扁平插画风",
+      "anime": "动漫风"
+    },
+    "defaultValue": {
+      "text": "一只可爱的小狗"
+    }
+  },
+  "emoji-generator": {
+    "warning": {
+      "material": "请输入材质",
+      "custom_text": "请输入自定义文字"
+    },
+    "label": {
+      "edge_text": "压边文字",
+      "material_style": "材质风格"
+    },
+    "placeholder": {
+      "emoji": "输入emoji或在右侧选择，一个emoji的效果更好哦",
+      "material_style": "选择材质风格",
+      "custom_text": "输入你想生成的emoji材质风格",
+      "vacuumPacked": "e.g. 302.AI"
+    },
+    "style": {
+      "paperCraft": "纸艺风格",
+      "fluffy3D": "蓬松3D",
+      "inflatableToy": "充气玩具",
+      "heliumBalloon": "氦气球",
+      "cork3D": "软木质3D",
+      "microFiberPillow": "微绒抱枕",
+      "8bitPixel": "8位像素",
+      "tuftedCarpet": "簇绒地毯",
+      "frostedGlass": "磨砂玻璃",
+      "iceCream": "雪糕",
+      "silk": "丝绸",
+      "metal": "金属",
+      "marble": "大理石",
+      "woodcut": "木刻",
+      "velvet": "丝绒",
+      "leather": "皮革",
+      "holographic3D": "3D全息",
+      "wickerWeave": "藤条编织",
+      "fabricTextile": "布艺",
+      "buildingBlocks": "积木",
+      "iceSculpture": "冰雕",
+      "paperCutWindow": "窗花",
+      "pineCone": "松果",
+      "vacuumPacked": "真空包装",
+      "custom": "自定义",
+      "leopard": "豹纹",
+      "3DMetalChrome": "3D金属镀铬",
+      "pastry": "糕点",
+      "rainbowGlass": "彩虹玻璃",
+      "felt": "毛毡"
+    },
+    "defaultValue": {
+      "text": "😀",
+      "vacuumPacked": "302.AI",
+      "custom": "窗花"
+    }
+  },
+  "handwriting-note": {
+    "warning": {
+      "text": "请输入内容"
+    },
+    "label": {
+      "type": "类型",
+      "scenicName": "景区名称",
+      "destination": "旅游目的地",
+      "novelName": "小说名称",
+      "noteTheme": "笔记主题",
+      "annotationLayout": "注释布局",
+      "language": "语言"
+    },
+    "select": {
+      "scenicGuide": "景区讲解指南",
+      "novelNotes": "小说笔记",
+      "travelNotes": "旅游手帐插画",
+      "handwritingNote": "手写笔记",
+      "horizontal": "水平",
+      "vertical": "垂直",
+      "chinese": "中文",
+      "english": "英文",
+      "japanese": "日文"
+    },
+    "placeholder": {
+      "scenicNamePlaceholder": "e.g. 白云山",
+      "destinationPlaceholder": "e.g. 北京",
+      "novelNamePlaceholder": "e.g. 傲慢与偏见",
+      "noteThemePlaceholder": "e.g. 人活着是为了什么"
+    },
+    "defaultValue": {
+      "scenicGuide": "白云山",
+      "novelNotes": "傲慢与偏见",
+      "travelNotes": "北京",
+      "handwritingNote": "人活着是为了什么"
+    }
+  },
+  "super-realistic-figure": {
+    "warning": {
+      "text": "请输入内容"
+    },
+    "label": {
+      "text": "请输入内容"
+    },
+    "placeholder": {
+      "text": "输入手办的主题或场景描述 e.g.武松打虎"
+    },
+    "defaultValue": {
+      "text": "武松打虎"
+    }
+  },
+  "cloud-art-form": {
+    "label": {
+      "shape": "云朵形状",
+      "location": "地点"
+    },
+    "placeholder": {
+      "shape": "输入主体或物体 e.g.兔子",
+      "location": "e.g.黄鹤楼"
+    },
+    "warning": {
+      "shape": "请输入形状",
+      "location": "请输入地点"
+    },
+    "defaultValue": {
+      "shape": "兔子",
+      "location": "黄鹤楼"
+    }
+  },
+  "brand-pill-form": {
+    "placeholder": {
+      "text": "输入品牌名 e.g.星巴克"
+    },
+    "warning": {
+      "text": "请输入内容"
+    },
+    "defaultValue": {
+      "text": "星巴克"
+    }
+  },
+  "letter-box-form": {
+    "label": {
+      "character": "字母",
+      "material": "材质",
+      "characterColor": "字母颜色",
+      "backgroundColor": "背景盒子颜色"
+    },
+    "placeholder": {
+      "character": "输入字母或数字，用逗号分隔，eg:3,0,2,A,I",
+      "material": "e.g. 泡沫",
+      "characterColor": "e.g. #000000",
+      "backgroundColor": "e.g. #000000"
+    },
+    "warning": {
+      "character": "请输入字母",
+      "material": "请输入材质",
+      "characterColor": "请输入字母颜色",
+      "backgroundColor": "请输入背景盒子颜色"
+    },
+    "defaultValue": {
+      "character": "3,0,2,A,I",
+      "material": "泡沫",
+      "characterColor": "#000000",
+      "backgroundColor": "#000000"
+    }
+  },
+  "original-product-image": {
+    "warning": {
+      "text": "请输入内容"
+    },
+    "placeholder": {
+      "text": "输入商品名或描述 e.g.空气净化器"
+    },
+    "defaultValue": {
+      "text": "空气净化器"
+    }
+  },
+  "plastic-trash-bag": {
+    "label": {
+      "bagColor": "袋子颜色",
+      "logoColor": "标志颜色",
+      "centerLogo": "中心标志"
+    },
+    "placeholder": {
+      "bagColor": "e.g. #000000",
+      "logoColor": "e.g. #000000",
+      "centerLogo": "e.g.麦当劳标志"
+    },
+    "warning": {
+      "bagColor": "请输入袋子颜色",
+      "logoColor": "请输入标志颜色",
+      "centerLogo": "请输入中心标志"
+    },
+    "defaultValue": {
+      "bagColor": "#000000",
+      "logoColor": "#000000",
+      "centerLogo": "麦当劳标志"
+    }
+  },
+  "mini-scroll": {
+    "label": {
+      "text": "主题"
+    },
+    "placeholder": {
+      "text": "填写主题或场景描述 e.g. 清明上河图"
+    },
+    "warning": {
+      "text": "请输入内容"
+    },
+    "defaultValue": {
+      "text": "清明上河图"
+    }
+  },
+  "shadow-art": {
+    "label": {
+      "text": "剪影主体"
+    },
+    "placeholder": {
+      "text": "输入主体描述 e.g. 正在扣篮的运动员"
+    },
+    "warning": {
+      "text": "请输入内容"
+    },
+    "defaultValue": {
+      "text": "正在扣篮的运动员"
+    }
+  },
+  "cover-poster": {
+    "select": {
+      "colorSvg": "彩色矢量艺术海报",
+      "magzineCover": "时尚杂志封面",
+      "vintageCover": "复古宣传海报"
+    },
+    "label": {
+      "type": "类型",
+      "svg-cover-title": "海报标题",
+      "svg-cover-subtitle": "海报副标题",
+      "svg-cover-content": "海报内容",
+      "magazine-cover-title": "杂志标题",
+      "magazine-cover-content": "杂志内容",
+      "vintage-cover-main": "海报主题",
+      "vintage-cover-center": "中心主体",
+      "vintage-cover-text-annotation": "文字标注",
+      "vintage-cover-left-bottom": "海报左下角",
+      "vintage-cover-right-bottom": "海报右下角",
+      "vintage-cover-language": "海报文字语言",
+      "zh": "中",
+      "en": "英",
+      "ja": "日"
+    },
+    "placeholder": {
+      "svg-cover-title": "e.g.广州",
+      "svg-cover-subtitle": "e.g.中国",
+      "svg-cover-content": "e.g.中国广州",
+      "magazine-cover-title": "e.g.FASHION DESIGN",
+      "magazine-cover-content": "e.g.一位美丽的女人穿着古法的深蓝色旗袍，头戴簪花。她一只手里拿着大蝴蝶。",
+      "vintage-cover-main": "e.g. GPT最新AI绘画服务的广告促销",
+      "vintage-cover-center": "可以填写人物或物品 e.g.一位美丽的年轻女性，以精致复古风格绘制，面带微笑，气质优雅，具有亲和力",
+      "vintage-cover-text-annotation": "使用双引号括起每行文字，并使用逗号分隔 e.g. \"AI直出效果，无需修改\"，\"惊爆价9.9/张\"",
+      "vintage-cover-left-bottom": "填写动作或标志",
+      "vintage-cover-right-bottom": "填写动作或标志"
+    },
+    "warning": {
+      "title": "请输入标题",
+      "subtitle": "请输入副标题",
+      "content": "请输入内容",
+      "magazine-content": "请输入杂志内容",
+      "magazine-title": "请输入杂志标题",
+      "vintage-main": "请输入海报主题",
+      "vintage-center": "请输入中心主体",
+      "vintage-text-annotation": "请输入文字标注",
+      "vintage-left-bottom": "请输入海报左下角",
+      "vintage-right-bottom": "请输入海报右下角"
+    },
+    "defaultValue": {
+      "colorSvg": {
+        "title": "广州",
+        "subtitle": "中国",
+        "content": "中国广州"
+      },
+      "magzineCover": {
+        "title": "FASHION DESIGN",
+        "content": "一位美丽的女人穿着古法的深蓝色旗袍，头戴簪花。她一只手里拿着大蝴蝶。"
+      },
+      "vintageCover": {
+        "title": "复古宣传海报",
+        "main": "GPT最新AI绘画服务的广告促销",
+        "center": "一位美丽的年轻女性，以精致复古风格绘制，面带微笑，气质优雅，具有亲和力",
+        "textAnnotation": "AI直出效果，无需修改,惊爆价9.9/张",
+        "leftBottom": "星号",
+        "rightBottom": "星号"
+      }
+    }
+  },
+  "miniTiltShiftLandscape": {
+    "text": "迷你倾斜移轴景观",
+    "placeholder": {
+      "text": "请输入风格或景观 e.g.未来城市"
+    },
+    "defaultValue": {
+      "text": "未来城市"
+    }
+  },
+  "qVersionKeycap": {
+    "text": "Q版钥匙扣",
+    "placeholder": {
+      "text": "请输入主题或描述 e.g. 未来城市"
+    },
+    "label": {
+      "description": "请上传一张图片，AI会将其转换为Q版的钥匙扣"
+    }
+  },
+  "mini-3d-shop": {
+    "label": {
+      "storeType": "店铺类型",
+      "customStoreType": "自定义",
+      "storeShape": "店铺形状",
+      "textSign": "店铺标语",
+      "shop": "商店",
+      "supermarket": "超市",
+      "food": "食品店",
+      "fruit": "水果店",
+      "custom": "自定义"
+    },
+    "placeholder": {
+      "storeType": "请输入店铺类型",
+      "customStoreType": "请输入店铺类型e.g. 水果店",
+      "storeShape": "e.g.香奈儿包包",
+      "textSign": "e.g. Bags"
+    },
+    "warning": {
+      "storeType": "请输入店铺类型",
+      "customStoreType": "请输入自定义",
+      "storeShape": "请输入店铺形状",
+      "textSign": "请输入店铺标语"
+    }
+  },
+  "finger_nail_painting": {
+    "label": {
+      "description": "请上传一张图片，AI会将其转换为指甲绘画"
+    },
+    "placeholder": {
+      "text": "请输入画在甲面上的内容 e.g.蒙娜丽莎"
+    },
+    "defaultValue": {
+      "text": "蒙娜丽莎"
+    }
+  },
+  "t_shirt_pin": {
+    "label": {
+      "clothingColor": "T恤颜色",
+      "description": "请上传一张图片，AI会将其转换为别针上的图案"
+    },
+    "placeholder": {
+      "clothingColor": "e.g. #000000",
+      "description": "请输入颜色代码"
+    }
+  },
+  "lego_city_landmark": {
+    "placeholder": {
+      "text": "请输入城市景点 e.g.北京颐和园",
+      "example": "北京颐和园"
+    }
+  },
+  "word_and_graphic_fusion": {
+    "placeholder": {
+      "text": "请输入英文单词 e.g.cake",
+      "example": "cake"
+    }
+  },
+  "3d_chrome_badge": {
+    "label": {
+      "description": "徽章图案",
+      "title": "上方标题",
+      "slogan": "下方标题",
+      "backgroundColor": "背景颜色",
+      "selectColor": "选择颜色"
+    },
+    "placeholder": {
+      "description": "请输入主体描述 e.g.小狗",
+      "title": "请输入标题 e.g.小狗",
+      "slogan": "请输入标语 e.g人类最忠诚的朋友",
+      "backgroundColor": "请输入背景颜色 e.g. #000000"
+    },
+    "defaultValue": {
+      "description": "小狗",
+      "title": "小狗",
+      "slogan": "人类最忠诚的朋友",
+      "backgroundColor": "#000000"
+    }
+  },
+  "animal_landmark_selfie": {
+    "label": {
+      "animal": "动物品种",
+      "landmark": "城市地标",
+      "expression1": "表情1",
+      "expression2": "表情2",
+      "expression3": "表情3"
+    },
+    "placeholder": {
+      "animal": "e.g. 熊猫",
+      "landmark": "e.g. 广州塔",
+      "expression1": "e.g. 喜悦",
+      "expression2": "e.g. 激动",
+      "expression3": "e.g.  平静"
+    },
+    "defaultValue": {
+      "animal": "熊猫",
+      "landmark": "广州塔",
+      "expression1": "喜悦",
+      "expression2": "激动",
+      "expression3": "平静"
+    }
+  },
+  "custom_anime_figure": {
+    "placeholder": {
+      "text": "请上传一张包含人物全身姿势、面部表情及服装造型的照片，用于生成手办模型。"
+    }
+  },
+  "glass_effect": {
+    "label": {
+      "subject": "模糊主体",
+      "color": "背景颜色",
+      "clearParts": "清晰局部"
+    },
+    "placeholder": {
+      "subject": "e.g.手持红色光剑的西斯领主",
+      "color": "e.g. #000000",
+      "clearParts": "e.g.另一只聚集暗黑原力的手"
+    },
+    "defaultValue": {
+      "subject": "手持红色光剑的西斯领主",
+      "color": "#000000",
+      "clearParts": "另一只聚集暗黑原力的手"
+    }
+  },
+  "rusty_iron_plate": {
+    "placeholder": {
+      "subject": "请输入主体 e.g.霸王龙"
+    },
+    "defaultValue": {
+      "subject": "霸王龙"
+    }
+  },
+  "flowing_ink": {
+    "placeholder": {
+      "subject": "请输入主体 e.g.锦鲤"
+    },
+    "defaultValue": {
+      "subject": "锦鲤"
+    }
+  },
+  "neon_graffiti": {
+    "label": {
+      "subject": "涂鸦主体",
+      "color1": "颜色1",
+      "color2": "颜色2"
+    },
+    "placeholder": {
+      "subject": "请输入主体 e.g.跑车",
+      "color1": "请输入颜色1 e.g. #000000",
+      "color2": "请输入颜色2 e.g. #000000"
+    },
+    "defaultValue": {
+      "subject": "跑车",
+      "color1": "#000000",
+      "color2": "#000000"
+    }
+  },
+  "grab_machine": {
+    "label": {
+      "brandName": "机器标语",
+      "machineColor": "机器颜色",
+      "internalItems": "爪机内部物品"
+    },
+    "placeholder": {
+      "brandName": "e.g.Hello Kitty",
+      "machineColor": "e.g. #000000",
+      "internalItems": "e.g.凯蒂猫玩偶，爱心"
+    },
+    "defaultValue": {
+      "brandName": "Hello Kitty",
+      "machineColor": "#000000",
+      "internalItems": "凯蒂猫玩偶，爱心"
+    }
+  },
+  "creative_minimalist_ad": {
+    "label": {
+      "object": "真实物体",
+      "text": "广告文字",
+      "logo": "品牌标志"
+    },
+    "placeholder": {
+      "object": "e.g.口红",
+      "text": "e.g.Launch Your Beauty",
+      "logo": "e.g. MAC"
+    },
+    "defaultValue": {
+      "object": "口红",
+      "text": "Launch Your Beauty",
+      "logo": "MAC"
+    }
+  },
+  "glass_fragment": {
+    "placeholder": {
+      "subject": "请输入主体 e.g.小马宝莉"
+    },
+    "defaultValue": {
+      "subject": "小马宝莉"
+    }
+  },
+  "creative_drawstring_bag": {
+    "label": {
+      "backgroundColor": "背景颜色",
+      "itemsInBag": "袋子里的物品",
+      "ribbonColor": "丝带颜色",
+      "labelColor": "标签颜色",
+      "labelText": "标签文本"
+    },
+    "placeholder": {
+      "backgroundColor": "e.g. #000000",
+      "itemsInBag": "e.g.切开的西瓜",
+      "ribbonColor": "e.g. #000000",
+      "labelColor": "e.g. #000000",
+      "labelText": "e.g. Watermelon"
+    },
+    "defaultValue": {
+      "backgroundColor": "#000000",
+      "itemsInBag": "切开的西瓜",
+      "ribbonColor": "#000000",
+      "labelColor": "#000000",
+      "labelText": "Watermelon"
+    }
+  },
+  "flower_sculpture": {
+    "label": {
+      "subject": "雕塑主体",
+      "flowerVarietiesUsed": "花朵种类",
+      "backgroundColor": "背景颜色"
+    },
+    "placeholder": {
+      "subject": "e.g.弓箭",
+      "flowerVarietiesUsed": "e.g.玫瑰、郁金香、毛茛",
+      "backgroundColor": "#000000"
+    },
+    "defaultValue": {
+      "subject": "弓箭",
+      "flowerVarietiesUsed": "玫瑰、郁金香、毛茛",
+      "backgroundColor": "#000000"
+    }
+  },
+  "succulent_pot": {
+    "placeholder": {
+      "potShape": "请输入花盆形状 e.g.海豚"
+    },
+    "defaultValue": {
+      "potShape": "海豚"
+    }
+  },
+  "retro_science_fiction_book_cover": {
+    "label": {
+      "subject": "封面主题"
+    },
+    "placeholder": {
+      "subject": "e.g.进击的仓鼠",
+      "color1": "e.g. #000000",
+      "color2": "e.g. #000000"
+    },
+    "defaultValue": {
+      "subject": "进击的仓鼠",
+      "color1": "#000000",
+      "color2": "#000000"
+    }
+  },
+  "coin": {
+    "label": {
+      "year": "年份",
+      "bottomText": "底部文字",
+      "coinPattern": "金币图案"
+    },
+    "placeholder": {
+      "year": "e.g. 2025",
+      "bottomText": "e.g. Netflix",
+      "coinPattern": "e.g. Netflix标志"
+    },
+    "defaultValue": {
+      "year": "e.g.2025",
+      "bottomText": "e.g. Netflix",
+      "coinPattern": "e.g.Netflix标志"
+    }
+  },
+  "emotion_cake": {
+    "label": {
+      "pastryType": "糕点类型",
+      "emotion": "情绪表达",
+      "backgroundColor": "背景颜色"
+    },
+    "placeholder": {
+      "pastryType": "e.g.牛角包",
+      "emotion": "e.g.困惑",
+      "backgroundColor": "e.g. #000000"
+    },
+    "defaultValue": {
+      "pastryType": "牛角包",
+      "emotion": "困惑",
+      "backgroundColor": "#000000"
+    }
+  },
+  "balloon": {
+    "label": {
+      "body": "气球主体",
+      "backgroundColor": "背景颜色"
+    },
+    "placeholder": {
+      "body": "e.g.菠萝",
+      "backgroundColor": "e.g. #000000"
+    },
+    "defaultValue": {
+      "body": "菠萝",
+      "backgroundColor": "#000000"
+    }
+  },
+  "monster_letter": {
+    "label": {
+      "lettersOrWords": "字母或单词",
+      "colorTone": "颜色",
+      "emotionalExpression": "情绪"
+    },
+    "placeholder": {
+      "lettersOrWords": "e.g.AI",
+      "colorTone": "e.g.粉色、嫩绿色",
+      "emotionalExpression": "e.g.流泪、开心"
+    },
+    "defaultValue": {
+      "lettersOrWords": "AI",
+      "colorTone": "粉色、嫩绿色",
+      "emotionalExpression": "流泪、开心"
+    }
+  },
+  "toy_box_city": {
+    "label": {
+      "countryOrCityName": "国家或城市名称"
+    },
+    "placeholder": {
+      "countryOrCityName": "请输入国家或城市名称 e.g.古埃及"
+    },
+    "defaultValue": {
+      "countryOrCityName": "古埃及"
+    }
+  },
+  "threeD_people": {
+    "warning": {
+      "image": "请上传一张人物图",
+      "text": "请输入内容"
+    },
+    "label": {
+      "description": "请上传一张人物图，AI会将其转换为3D玩偶手办"
+    }
+  },
+  "flat_lay_photo": {
+    "warning": {
+      "image": "请上传一张人物图",
+      "text": "请输入内容"
+    },
+    "label": {
+      "description": "请上传一张人物图，AI会将其服装和配饰转换为平铺展示图"
+    }
+  },
+  "cartoon_to_real": {
+    "warning": {
+      "image": "请上传一张人物图",
+      "text": "请输入内容"
+    },
+    "label": {
+      "description": "请上传一张图片，AI会将其转换为真人扮演的cosplay照片"
+    }
+  },
+  "sidebar": {
+    "undefined":"未定义",
+    "video":"视频",
+    "video-pending":"视频生成中",
+    "home": "首页",
+    "realistic_photo": "基础生图",
+    "english_cards": "英文单词卡片",
+    "visual_recipe": "可视化菜谱",
+    "physical_destruction": "物理破坏效果卡片",
+    "product_model": "产品模特图",
+    "sculpture": "雕塑",
+    "relief": "立体浮雕",
+    "3d_head_pose": "3D头像姿势",
+    "clay_model": "粘土",
+    "crystal_ball": "水晶球",
+    "passport_stamp": "护照印章",
+    "low_poly": "低多边形",
+    "isometric_scene": "等距视角微缩场景",
+    "city_isometric_view": "城市等轴测视图",
+    "font_typography": "字体排印",
+    "ancient_book": "古书",
+    "pill_capsule": "泡罩药片",
+    "keycap": "主题键帽",
+    "mini_3d_building": "迷你3D建筑",
+    "change_age": "改变年龄",
+    "doll": "可动人偶",
+    "3d_model": "3D立体模型",
+    "tweet": "虚构推文",
+    "double_exposure": "人物双重曝光",
+    "hand_drawn_info_card": "手绘风格的信息图片卡片",
+    "lego_collection": "乐高收藏品",
+    "micro_world": "微观世界",
+    "cute_enamelled_pin": "可爱珐琅别针",
+    "q_version_3d_character": "Q版3D人物",
+    "ghibli_style": "吉卜力风格",
+    "sticker_design": "贴纸设计",
+    "emoji_generator": "Emoji",
+    "handwriting_note": "手账笔记",
+    "super_realistic_figure": "超写实手办",
+    "cloud_art": "云朵艺术",
+    "brand_pill": "品牌药丸",
+    "letter_box": "字母盒子",
+    "original_product_image": "原创商品图",
+    "plastic_trash_bag": "塑料垃圾袋",
+    "mini_scroll": "3D迷你卷轴",
+    "shadow_art": "剪影艺术",
+    "cover_poster": "封面海报",
+    "mini_tilt_shift_landscape": "迷你倾斜移轴景观",
+    "q_version_keycap": "Q版钥匙扣",
+    "mini_3d_shop": "3D微型店铺",
+    "finger_nail_painting": "指甲绘画",
+    "t_shirt_pin": "T恤上的别针",
+    "lego_city_landmark": "乐高城市地标",
+    "word_and_graphic_fusion": "文字与图形融合",
+    "3d_chrome_badge": "3D镀铬徽章",
+    "animal_landmark_selfie": "动物地标自拍",
+    "custom_anime_figure": "定制动漫手办",
+    "glass_effect": "磨砂玻璃后的虚实剪影",
+    "rusty_iron_plate": "生锈的铁板",
+    "flowing_ink": "流墨",
+    "neon_graffiti": "霓虹涂鸦",
+    "grab_machine": "抓娃娃机",
+    "creative_minimalist_ad": "创意极简广告",
+    "glass_fragment": "玻璃碎片",
+    "creative_drawstring_bag": "创意抽绳袋",
+    "flower_sculpture": "花卉雕塑",
+    "succulent_pot": "多肉花盘",
+    "retro_science_fiction_book_cover": "复古科幻书封面",
+    "coin": "金币",
+    "emotion_cake": "情绪蛋糕",
+    "balloon": "趣味气球",
+    "monster_letter": "怪物字母",
+    "toy_box_city": "玩具盒中的城市",
+    "threeD_people": "3D人偶",
+    "flat_lay_photo": "服装平铺图",
+    "cartoon_to_real": "动漫转真人"
+
+  }
+}
