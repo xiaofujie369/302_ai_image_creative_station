@@ -1,7 +1,16 @@
+import type { Route } from "next";
 import Link from "next/link";
-import { LayoutDashboard, List, Receipt, Settings, Users, WalletCards } from "lucide-react";
+import {
+  LayoutDashboard,
+  List,
+  Receipt,
+  Settings,
+  Users,
+  WalletCards,
+  type LucideIcon,
+} from "lucide-react";
 
-const links = [
+const links: Array<{ href: Route; label: string; Icon: LucideIcon }> = [
   { href: "/admin", label: "Dashboard", Icon: LayoutDashboard },
   { href: "/admin/users", label: "Users", Icon: Users },
   { href: "/admin/generations", label: "Generations", Icon: List },

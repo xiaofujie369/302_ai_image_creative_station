@@ -1,17 +1,18 @@
+import type { Route } from "next";
 import Link from "next/link";
 import SignOutButton from "@/components/saas/sign-out-button";
 
 export function AccountNav() {
-  const links = [
-    ["/account", "Overview"],
-    ["/account/generations", "Generations"],
-    ["/account/orders", "Orders"],
-    ["/account/credits", "Credits"],
+  const links: Array<{ href: Route; label: string }> = [
+    { href: "/account", label: "Overview" },
+    { href: "/account/generations", label: "Generations" },
+    { href: "/account/orders", label: "Orders" },
+    { href: "/account/credits", label: "Credits" },
   ];
 
   return (
     <div className="mb-6 flex flex-wrap items-center gap-2">
-      {links.map(([href, label]) => (
+      {links.map(({ href, label }) => (
         <Link
           key={href}
           href={href}
