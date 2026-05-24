@@ -1,7 +1,7 @@
 import Link from "next/link";
 import SignOutButton from "@/components/saas/sign-out-button";
 
-export default function AccountNav() {
+export function AccountNav() {
   const links = [
     ["/account", "Overview"],
     ["/account/generations", "Generations"],
@@ -24,3 +24,5 @@ export default function AccountNav() {
     </div>
   );
 }
+
+export default AccountNav;

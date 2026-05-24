@@ -1,5 +1,6 @@
 import { createEnv } from "@t3-oss/env-nextjs";
-import { ZodError, z } from "zod";
+import type { ZodError } from "zod";
+import { z } from "zod";
 
 // Define and validate the environment variables
 export const env = createEnv({
@@ -48,7 +49,7 @@ export const env = createEnv({
       "❌ Invalid environment variables:",
       error.flatten().fieldErrors
     );
-    process.exit(1);
+    throw new Error("Invalid environment variables");
   },
   emptyStringAsUndefined: true, // Treat empty strings as undefined
 });

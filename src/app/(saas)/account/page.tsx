@@ -1,5 +1,5 @@
 import Link from "next/link";
-import AccountNav from "@/components/saas/account-nav";
+import { AccountNav } from "@/components/saas/account-nav";
 import { prisma } from "@/lib/prisma";
 import { requirePageUser } from "@/lib/server-auth";
 
